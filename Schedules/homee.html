@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule</title>
+    <link rel="stylesheet" href="home1.css"> <!-- Link to CSS file -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+</head>
+<body class="bg">
+    <svg display="none">
+        <symbol id="arrow">
+            <polyline points="7 10,12 15,17 10" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+        </symbol>
+    </svg>
+    <h1>THARANG 2K25 <br>Time-Line</h1>
+    <div id="timeline" class="timeline">
+	<div class="btn-group">
+		<button class="btn" type="button" data-action="expand">EXPAND</button>&emsp;&emsp;&emsp;&emsp;&emsp;
+		<button class="btn" type="button" data-action="collapse">COLLAPSE</button>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item1" aria-labelledby="item1-name" aria-expanded="false" aria-controls="item1-ctrld" aria-haspopup="true" data-item="1">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item1-name" class="timeline__meta">
+				<time class="timeline__date" datetime="1970-01-01">DAY 1 - FEB 22</time><br>
+				<strong class="timeline__title">INAGURATION</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item1-ctrld" role="region" aria-labelledby="item1" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p"> &emsp;&emsp;&emsp;Time:10AM - 11:30 AM</dl><dd>&emsp;&emsp;&emsp;Venue: College Auditorium</dd></li><br>
+					
+			</div>
+		</div>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item2" aria-labelledby="item2-name" aria-expanded="false" aria-controls="item2-ctrld" aria-haspopup="true" data-item="2">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item2-name" class="timeline__meta">
+				<time class="timeline__date" datetime="1973-10-17">Go to</time><br>
+				<strong class="timeline__title">AFTER NOON</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item2-ctrld" role="region" aria-labelledby="item2" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p"><li>Quiz-School Level<dl>&emsp;&emsp;&emsp;Time:1:30PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: L1, L2,L4</dd></li><br>
+					<li>Quiz-College Level<dl>&emsp;&emsp;&emsp;Time:1:30PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: L1, L2,L4</dd></li></p>
+					 <li>Seminar<dl>&emsp;&emsp;&emsp;Time:2:00PM - 4:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Drawing Hall</dd></li> 
+					 <li>Workshop 1<dl>&emsp;&emsp;&emsp;Time:2:00PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: VLSI Lab</dd></li>
+					 <li>Debate<dl>&emsp;&emsp;&emsp;Time:1:00PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: First Year Block</dd></li>
+					 <li>Type racing<dl>&emsp;&emsp;&emsp;Time:1:30PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Modrobs Lab</dd></li> 
+					 <li>Robo Race<dl>&emsp;&emsp;&emsp;Time:1:30PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Electronics Lab</dd></li>
+					 <li>Workshop 2<dl>&emsp;&emsp;&emsp;Time:1:30PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: CC Lab</dd></li></p>
+			</div>
+		</div>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item3" aria-labelledby="item3-name" aria-expanded="false" aria-controls="item3-ctrld" aria-haspopup="true" data-item="3">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item3-name" class="timeline__meta">
+				<time class="timeline__date" datetime="2001-09-09">Go to</time><br>
+				<strong class="timeline__title">Culturals</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item3-ctrld" role="region" aria-labelledby="item3" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p"> <li>Athira Nilave (Band)<dl>&emsp;&emsp;&emsp;Time:8:15PM - 10:00 PM</dl></li>  </p>
+			</div>
+		</div>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item4" aria-labelledby="item4-name" aria-expanded="false" aria-controls="item4-ctrld" aria-haspopup="true" data-item="4">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item4-name" class="timeline__meta">
+				<time class="timeline__date" datetime="2009-02-13">Day 2-February 23</time><br>
+				<strong class="timeline__title">FORE NOON</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item4-ctrld" role="region" aria-labelledby="item4" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p"> <li>Seminar<dl>&emsp;&emsp;&emsp;Time:10:00AM - 12:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: First Year Block</dd></li></p>
+				<li>Cultural Program<dl>&emsp;&emsp;&emsp;Time:10:00AM - 12:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue:Auditorium</dd></li> 
+				<li>Workshop 1<dl>&emsp;&emsp;&emsp;Time:Time:10:00AM - 12:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Electronics Lab</dd></li>
+				<li>Debate<dl>&emsp;&emsp;&emsp;Time:Time:10:00AM - 12:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Modrobs Lab/ CC Lab</dd></li>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item5" aria-labelledby="item5-name" aria-expanded="false" aria-controls="item5-ctrld" aria-haspopup="true" data-item="5">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item5-name" class="timeline__meta">
+				<time class="timeline__date" datetime="2033-05-18">Go to</time><br>
+				<strong class="timeline__title">AFTER NOON</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item5-ctrld" role="region" aria-labelledby="item5" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p">	 <li>Code Sprint<dl>&emsp;&emsp;&emsp;Time:1:00PM - 3:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: Modrobs Lab</dd></li> 
+					<li>AI Film Making<dl>&emsp;&emsp;&emsp;Time:1:00PM - 3:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: CC Lab</dd></li>
+					<li>Workshop 2<dl>&emsp;&emsp;&emsp;Time:2:00PM - 4:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: First Year Block</dd></li>
+					<li>Cultural Program<dl>&emsp;&emsp;&emsp;Time:1:00PM - 5:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: College Auditorium</dd></li> 
+					 
+					<li>Cultural<dl>&emsp;&emsp;&emsp;Time:6:00PM - 8:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue: </dd></li></p>
+		   </p>
+			</div>
+		</div>
+	</div>
+	<div class="timeline__item">
+		<div class="timeline__item-header">
+			<button class="timeline__arrow" type="button" id="item6" aria-labelledby="item6-name" aria-expanded="false" aria-controls="item6-ctrld" aria-haspopup="true" data-item="6">
+				<svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+					<use href="#arrow" />
+				</svg>
+			</button>
+			<span class="timeline__dot"></span>
+			<span id="item6-name" class="timeline__meta">
+				<time class="timeline__date" datetime="2038-01-19">Closing</time><br>
+				<strong class="timeline__title">Prize ceremony</strong>
+			</span>
+		</div>
+		<div class="timeline__item-body" id="item6-ctrld" role="region" aria-labelledby="item6" aria-hidden="true">
+			<div class="timeline__item-body-content">
+				<p class="timeline__item-p"><li>ceremony<dl>&emsp;&emsp;&emsp;Time:5:00PM - 6:00 PM</dl><dd>&emsp;&emsp;&emsp;Venue:College Auditorium</dd></li></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="home2.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
